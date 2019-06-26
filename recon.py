@@ -1,4 +1,6 @@
 
+import sys
+
 DELIMITER_HEADERS = ["D0-POS", "D1-TRN", "D1-POS"]
 
 CASH_CODES_IN = ["DEPOSIT", "SELL", "DIVIDEND"]
@@ -40,8 +42,15 @@ def generate_breaks_hash(statement_positions, ledger_positions):
     return breaks_hash
     
 
+def get_target_input():
+    if len(sys.argv) >= 2:
+        return sys.argv[1]
+    else:
+        return "recon.in"
+
+
 # main script
-recon_in = open("recon.in")
+recon_in = open(get_target_input())
 records = [rec for rec in recon_in.read().split('\n') if rec != '']
 recon_in.close()
 
