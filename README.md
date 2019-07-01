@@ -2,10 +2,11 @@
 This example uses no external dependencies and should run as-is on any machine
 with python installed.
 
-I've included a sample `recon.in` text file in the top level directory for
-`recon.py` to process for default behavior, but it will also process any other
-properly formatted local file if that file's absolute path is passed as a second
-positional argument when `recon.py` is run.
+I've included a copy of the sample `recon.in` text file from the challenge
+description in the top level directory for `recon.py` to process as default
+behavior, but it will also process any other properly formatted local file if
+that file's absolute path is passed as a second positional argument when
+`recon.py` is run.
 
 
 #### How to run:
