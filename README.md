@@ -13,9 +13,12 @@ that file's absolute path is passed as a second positional argument when
 - Clone this repo
 
 `git clone git@github.com:jamescarney3/recon-in-out.git`
+
 - In parent directory, run main script to process example recon.in file
 
 `python recon.py`
+
 - Output is written to top level `recon.out` text file
+
 - Optionally run with an absolute path as second positional argument to process
 a recon.in formatted text file at that path
