@@ -1,4 +1,4 @@
-## YCharts Coding Challenge Q3
+## Coding Challenge Question 3
 This example uses no external dependencies and should run as-is on any machine
 with python installed.
 
